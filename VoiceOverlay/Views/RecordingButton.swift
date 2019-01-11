@@ -105,7 +105,7 @@ enum RecordingStatus {
 @available(iOS 10.0, *)
 extension RecordingButton {
     func setimage(_ isRecording: Bool) {
-        let imageName = isRecording ? "mic-lg-active" : "mic-lg-inactive"
+        let imageName = isRecording ? "bn_voice_active" : "bn_voice_inactive"
         let recordingImage = UIImage(named: imageName, in: Bundle(for: type(of: self)), compatibleWith: nil)
         setBackgroundImage(recordingImage, for: .normal)
     }

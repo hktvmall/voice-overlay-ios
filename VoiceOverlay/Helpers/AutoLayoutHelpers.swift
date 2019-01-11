@@ -78,7 +78,7 @@ class ViewHelpers {
         recordingButton.heightAnchor.constraint(equalToConstant: 75).isActive = true
         recordingButton.widthAnchor.constraint(equalToConstant: 75).isActive = true
         let bundle = Bundle(for: self)
-        let recordingImage = UIImage(named: "mic-lg-inactive", in: bundle, compatibleWith: nil)
+        let recordingImage = UIImage(named: "bn_voice_inactive", in: bundle, compatibleWith: nil)
         recordingButton.setBackgroundImage(recordingImage, for: .normal)
         
         recordingButton.pulseColor = recordingButtonConstants.pulseColor
