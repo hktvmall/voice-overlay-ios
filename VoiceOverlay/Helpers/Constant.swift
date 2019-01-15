@@ -121,13 +121,13 @@ public class InputScreenConstants {
   public var titleListening = "Listening..."
   
   /// Subtitle shown at the top of the screen before the recording button is activated.
-  public var subtitleInitial = "Say something like:"
+  public var subtitleInitial = ""
   
   /// The bullet point shown for each item in the list of suggestions
   public var subtitleBullet = "\u{2022}"
   
   /// The list of query suggestions shown in a bullet list
-  public var subtitleBulletList = ["\"iphone case\"", "\"Running shoes\""]
+    public var subtitleBulletList: [String] = []
   
   /// Title shown at the very top of the screen when the recording button is activated and voice inputs have been received.
   public var titleInProgress = "Searching for:"
@@ -178,7 +178,7 @@ public class ResultScreenConstants {
 public class InputButtonConstants {
   
   /// Color of the pulse
-  public var pulseColor = UIColor(red: 51/255, green: 74/255, blue: 97/255, alpha: 1)
+  public var pulseColor = UIColor(red: 58/255, green: 153/255, blue: 58/255, alpha: 1)
   
   /// Duration of the pulse
   public var pulseDuration: CGFloat = 4
