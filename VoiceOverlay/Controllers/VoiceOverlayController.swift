@@ -109,7 +109,8 @@ public typealias RecordableHandler = () -> Recordable
         inputViewController.settings = settings
     
         inputViewController.dismissHandler = { [unowned self] (retry) in
-          self.inputViewController = nil
+          // deallocate 
+//          self.inputViewController = nil
           if retry {
             self.showRecordingScreen(view)
           }
